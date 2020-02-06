@@ -1,0 +1,41 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.container label span + input {
+  display: block;
+}
+
+.container button {
+  display: block;
+  width: 150px;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+.user button {
+  width: 50px;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

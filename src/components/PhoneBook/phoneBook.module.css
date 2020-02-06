@@ -1,0 +1,19 @@
+.appear {
+  transform: translateX(-200%);
+  opacity: 0;
+}
+
+.appearActive {
+  transition: all 500ms ease-in-out;
+  -webkit-transform: translateX(0%);
+  opacity: 1;
+}
+
+.logo {
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  color: blue;
+  text-align: center;
+}

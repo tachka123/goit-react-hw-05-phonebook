@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  transition: all 400ms;
+}
+
+.enter {
+  transform: scaleY(0);
+  opacity: 0;
+}
+
+.enterActive {
+  transform: scaleY(1);
+  opacity: 1;
+  height: inherit;
+  transition: all 400ms ease-in;
+}
+
+.exit {
+  opacity: 1;
+  transform: scaleY(1);
+  height: initial;
+}
+
+.exitActive {
+  opacity: 0;
+  height: 0;
+  transform: scaleY(0);
+  transition: all 400ms ease-in;
+}
